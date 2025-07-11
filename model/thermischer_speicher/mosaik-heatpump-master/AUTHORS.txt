@@ -1,0 +1,8 @@
+Authors
+=======
+
+The mosaik-heatpump package was developed by Pranay Kasturi.
+
+The hot water tank model was initially developed by Johannes Gerster.
+
+Additional Contributors: Jan Soeren Schwarz

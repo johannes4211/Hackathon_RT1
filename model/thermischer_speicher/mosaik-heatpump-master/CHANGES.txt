@@ -1,0 +1,49 @@
+Changelog
+=========
+
+1.0.2 - 2024-07-11
+------------------
+
+- [FIX] Add compatibility with mosaik >= 3.3 
+
+1.0.1 - 2024-04-30
+------------------
+
+- [FIX] Restrict tespy dependency to <0.7 due to change in API
+- [FIX] Restrict mosaik dependency to <3.3 due to incompatibility with current same time loop scenario
+
+1.0.0 - 2024-02-28
+------------------
+
+- [NEW] Tests for heatpump model and co-simulation of models
+- [NEW] Detailed documentation of all the models
+- [NEW] More precalculated heatpump models
+- [CHANGE] Code documentation within modules
+- [CHANGE] Modified the structure and names of the files in the repository
+- [CHANGE] Examples save the output data in csv instead of HDF5
+- [CHANGE] Updated the examples in 'Scripts' directory
+- [CHANGE] Recalculated saved heatpump data with new parametrization of models
+- [CHANGE] Removed regulated heatpump operation
+- [CHANGE] Added limits to the heatpump operation in hplib mode
+- [CHANGE] Removed parallelization in heatpump model execution
+- [FIX] All attributes of controller saved when same time loops are used
+- [FIX] Bug in using index in detailed mode of heatpump
+
+0.2.0 - 2023-07-23
+------------------
+
+- [NEW] Example scenarios
+- [NEW] Model for cooling
+- [NEW] Different control strategies for controller
+- [NEW] Option to use same time loops with controller
+- [NEW] More precalculated heat pump models
+- [NEW] hplib mode
+- [NEW] Scripts to add new heat pump models
+- [CHANGE] Updated parameterization of detailed heat pump model
+- [CHANGE] Removed asynchronous connections
+- [CHANGE] Cleaned up code
+
+0.1.0 - 2021-06-29
+------------------
+
+- Initial release of the mosaik-heatpump package
